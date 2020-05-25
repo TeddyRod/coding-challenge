@@ -9,7 +9,7 @@ export class NavMain extends Component {
           <React.Fragment>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/Temperature">Temperature</NavLink>
-            <NavLink to="/CustomizeImage">Customize-Image</NavLink>
+            <NavLink to="/Customize-Image">Customize-Image</NavLink>
           </React.Fragment>
         </nav>
       </div>

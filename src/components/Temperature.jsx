@@ -29,8 +29,8 @@ inputTemp= (event) => {
                 return (
                         <div>
                                <form >
-                                       <label htmlFor="Temperature">Temperature</label>
-                                       <input type="number" placeholder="Temperature in C°" onChange={this.inputTemp}/>
+                                       <h1>Temperature</h1>
+                                       <input type="number" style={{textAlign: "center"}} placeholder="Temperature in C°" onChange={this.inputTemp}/>
                                </form>
                                {this.state.temperature}
                         </div>
