@@ -1,9 +1,9 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import NavMain from './components/NavMain';
-import Home from './pages/Home';
-import Temperature from './pages/Temperature';
-import CustomozeImage from './pages/CustomizeImage';
+import home from './pages/home';
+import temperature from './pages/temperature';
+import customozeImage from './pages/customizeImage';
 import './App.css';
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <NavMain />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/temperature" component={Temperature} />
-        <Route excat path="/customize-image" component={CustomozeImage} />
+        <Route exact path="/" component={home} />
+        <Route exact path="/temperature" component={temperature} />
+        <Route excat path="/customize-image" component={customozeImage} />
       </Switch>
     </div>
   );
